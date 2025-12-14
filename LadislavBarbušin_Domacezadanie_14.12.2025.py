@@ -1,3 +1,7 @@
+#Úlohou zadania je navrhnúť program, ktorý pomocou abstraktnej triedy a dedičnosti modeluje rôzne druhy zvierat. 
+#Program má umožniť používateľovi vybrať typ zvieraťa, zadať jeho základné vlastnosti a určiť, či ide o domáce alebo divé zviera. 
+#Na záver má program vypísať prehľadné informácie.
+
 from abc import ABC, abstractmethod
 
 #abstraktna trieda
@@ -106,4 +110,5 @@ def main():
     print(f"Druh pokrytia tela: {zviera.druh_pokrytia_tela()}")
 
 if __name__ == "__main__":
+
     main()
